@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3F14101C1054F400CB368C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F140F1C1054F400CB368C /* AppDelegate.swift */; };
+		1F3F14121C1054F400CB368C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F14111C1054F400CB368C /* ViewController.swift */; };
+		1F3F14151C1054F400CB368C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3F14131C1054F400CB368C /* Main.storyboard */; };
+		1F3F14171C1054F400CB368C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3F14161C1054F400CB368C /* Assets.xcassets */; };
+		1F3F141A1C1054F400CB368C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3F14181C1054F400CB368C /* LaunchScreen.storyboard */; };
+		1F3F14251C1054F400CB368C /* sumoEGGsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F14241C1054F400CB368C /* sumoEGGsTests.swift */; };
+		1F3F14301C1054F400CB368C /* sumoEGGsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F142F1C1054F400CB368C /* sumoEGGsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F3F14211C1054F400CB368C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F3F14041C1054F400CB368C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F3F140B1C1054F400CB368C;
+			remoteInfo = sumoEGGs;
+		};
+		1F3F142C1C1054F400CB368C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F3F14041C1054F400CB368C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F3F140B1C1054F400CB368C;
+			remoteInfo = sumoEGGs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3F140C1C1054F400CB368C /* sumoEGGs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sumoEGGs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3F140F1C1054F400CB368C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F3F14111C1054F400CB368C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F3F14141C1054F400CB368C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F3F14161C1054F400CB368C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F3F14191C1054F400CB368C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F3F141B1C1054F400CB368C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3F14201C1054F400CB368C /* sumoEGGsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumoEGGsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3F14241C1054F400CB368C /* sumoEGGsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumoEGGsTests.swift; sourceTree = "<group>"; };
+		1F3F14261C1054F400CB368C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3F142B1C1054F400CB368C /* sumoEGGsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumoEGGsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3F142F1C1054F400CB368C /* sumoEGGsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumoEGGsUITests.swift; sourceTree = "<group>"; };
+		1F3F14311C1054F400CB368C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3F14091C1054F400CB368C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3F141D1C1054F400CB368C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3F14281C1054F400CB368C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3F14031C1054F400CB368C = {
+			isa = PBXGroup;
+			children = (
+				1F3F140E1C1054F400CB368C /* sumoEGGs */,
+				1F3F14231C1054F400CB368C /* sumoEGGsTests */,
+				1F3F142E1C1054F400CB368C /* sumoEGGsUITests */,
+				1F3F140D1C1054F400CB368C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F3F140D1C1054F400CB368C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F3F140C1C1054F400CB368C /* sumoEGGs.app */,
+				1F3F14201C1054F400CB368C /* sumoEGGsTests.xctest */,
+				1F3F142B1C1054F400CB368C /* sumoEGGsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F3F140E1C1054F400CB368C /* sumoEGGs */ = {
+			isa = PBXGroup;
+			children = (
+				1F3F140F1C1054F400CB368C /* AppDelegate.swift */,
+				1F3F14111C1054F400CB368C /* ViewController.swift */,
+				1F3F14131C1054F400CB368C /* Main.storyboard */,
+				1F3F14161C1054F400CB368C /* Assets.xcassets */,
+				1F3F14181C1054F400CB368C /* LaunchScreen.storyboard */,
+				1F3F141B1C1054F400CB368C /* Info.plist */,
+			);
+			path = sumoEGGs;
+			sourceTree = "<group>";
+		};
+		1F3F14231C1054F400CB368C /* sumoEGGsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F3F14241C1054F400CB368C /* sumoEGGsTests.swift */,
+				1F3F14261C1054F400CB368C /* Info.plist */,
+			);
+			path = sumoEGGsTests;
+			sourceTree = "<group>";
+		};
+		1F3F142E1C1054F400CB368C /* sumoEGGsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F3F142F1C1054F400CB368C /* sumoEGGsUITests.swift */,
+				1F3F14311C1054F400CB368C /* Info.plist */,
+			);
+			path = sumoEGGsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F3F140B1C1054F400CB368C /* sumoEGGs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3F14341C1054F400CB368C /* Build configuration list for PBXNativeTarget "sumoEGGs" */;
+			buildPhases = (
+				1F3F14081C1054F400CB368C /* Sources */,
+				1F3F14091C1054F400CB368C /* Frameworks */,
+				1F3F140A1C1054F400CB368C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sumoEGGs;
+			productName = sumoEGGs;
+			productReference = 1F3F140C1C1054F400CB368C /* sumoEGGs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F3F141F1C1054F400CB368C /* sumoEGGsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3F14371C1054F400CB368C /* Build configuration list for PBXNativeTarget "sumoEGGsTests" */;
+			buildPhases = (
+				1F3F141C1C1054F400CB368C /* Sources */,
+				1F3F141D1C1054F400CB368C /* Frameworks */,
+				1F3F141E1C1054F400CB368C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F3F14221C1054F400CB368C /* PBXTargetDependency */,
+			);
+			name = sumoEGGsTests;
+			productName = sumoEGGsTests;
+			productReference = 1F3F14201C1054F400CB368C /* sumoEGGsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F3F142A1C1054F400CB368C /* sumoEGGsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3F143A1C1054F400CB368C /* Build configuration list for PBXNativeTarget "sumoEGGsUITests" */;
+			buildPhases = (
+				1F3F14271C1054F400CB368C /* Sources */,
+				1F3F14281C1054F400CB368C /* Frameworks */,
+				1F3F14291C1054F400CB368C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F3F142D1C1054F400CB368C /* PBXTargetDependency */,
+			);
+			name = sumoEGGsUITests;
+			productName = sumoEGGsUITests;
+			productReference = 1F3F142B1C1054F400CB368C /* sumoEGGsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F3F14041C1054F400CB368C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Fabian Kola";
+				TargetAttributes = {
+					1F3F140B1C1054F400CB368C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1F3F141F1C1054F400CB368C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1F3F140B1C1054F400CB368C;
+					};
+					1F3F142A1C1054F400CB368C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1F3F140B1C1054F400CB368C;
+					};
+				};
+			};
+			buildConfigurationList = 1F3F14071C1054F400CB368C /* Build configuration list for PBXProject "sumoEGGs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F3F14031C1054F400CB368C;
+			productRefGroup = 1F3F140D1C1054F400CB368C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F3F140B1C1054F400CB368C /* sumoEGGs */,
+				1F3F141F1C1054F400CB368C /* sumoEGGsTests */,
+				1F3F142A1C1054F400CB368C /* sumoEGGsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F3F140A1C1054F400CB368C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3F141A1C1054F400CB368C /* LaunchScreen.storyboard in Resources */,
+				1F3F14171C1054F400CB368C /* Assets.xcassets in Resources */,
+				1F3F14151C1054F400CB368C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3F141E1C1054F400CB368C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3F14291C1054F400CB368C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3F14081C1054F400CB368C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3F14121C1054F400CB368C /* ViewController.swift in Sources */,
+				1F3F14101C1054F400CB368C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3F141C1C1054F400CB368C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3F14251C1054F400CB368C /* sumoEGGsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3F14271C1054F400CB368C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3F14301C1054F400CB368C /* sumoEGGsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F3F14221C1054F400CB368C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F3F140B1C1054F400CB368C /* sumoEGGs */;
+			targetProxy = 1F3F14211C1054F400CB368C /* PBXContainerItemProxy */;
+		};
+		1F3F142D1C1054F400CB368C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F3F140B1C1054F400CB368C /* sumoEGGs */;
+			targetProxy = 1F3F142C1C1054F400CB368C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F3F14131C1054F400CB368C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3F14141C1054F400CB368C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F3F14181C1054F400CB368C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3F14191C1054F400CB368C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F3F14321C1054F400CB368C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F3F14331C1054F400CB368C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F3F14351C1054F400CB368C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sumoEGGs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.fabian-kola.sumoEGGs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F3F14361C1054F400CB368C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sumoEGGs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.fabian-kola.sumoEGGs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F3F14381C1054F400CB368C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sumoEGGsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.fabian-kola.sumoEGGsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sumoEGGs.app/sumoEGGs";
+			};
+			name = Debug;
+		};
+		1F3F14391C1054F400CB368C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sumoEGGsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.fabian-kola.sumoEGGsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sumoEGGs.app/sumoEGGs";
+			};
+			name = Release;
+		};
+		1F3F143B1C1054F400CB368C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sumoEGGsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.fabian-kola.sumoEGGsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sumoEGGs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F3F143C1C1054F400CB368C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sumoEGGsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.fabian-kola.sumoEGGsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sumoEGGs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3F14071C1054F400CB368C /* Build configuration list for PBXProject "sumoEGGs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3F14321C1054F400CB368C /* Debug */,
+				1F3F14331C1054F400CB368C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3F14341C1054F400CB368C /* Build configuration list for PBXNativeTarget "sumoEGGs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3F14351C1054F400CB368C /* Debug */,
+				1F3F14361C1054F400CB368C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F3F14371C1054F400CB368C /* Build configuration list for PBXNativeTarget "sumoEGGsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3F14381C1054F400CB368C /* Debug */,
+				1F3F14391C1054F400CB368C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F3F143A1C1054F400CB368C /* Build configuration list for PBXNativeTarget "sumoEGGsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3F143B1C1054F400CB368C /* Debug */,
+				1F3F143C1C1054F400CB368C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F3F14041C1054F400CB368C /* Project object */;
+}
